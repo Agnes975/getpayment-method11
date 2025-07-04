@@ -1,0 +1,60 @@
+HTML (HyperText Markup Language) elements are the building blocks of web pages. Each element represents a part of the document (such as a paragraph, a heading, an image, a link, etc.) and is defined by a start tag, content, and an end tag. Here are some of the most commonly used HTML elements:
+
+Structural Elements
+<html>: The root element of an HTML document.
+<head>: Contains meta-information about the HTML document (e.g., title, character set, links to stylesheets).
+<body>: Contains the content of the HTML document, such as text, images, links, and other elements.
+<header>: Defines a header for a document or section.
+<nav>: Defines a set of navigation links.
+<main>: Specifies the main content of the document.
+<footer>: Defines a footer for a document or section.
+<section>: Defines a section in a document.
+<article>: Defines an independent, self-contained piece of content.
+<aside>: Defines content aside from the content it is placed in (like a sidebar).
+Text Elements
+<h1> to <h6>: Define headings, where <h1> is the highest level and <h6> is the lowest.
+<p>: Defines a paragraph.
+<span>: Defines a small piece of text within a paragraph or other text block, often used for styling.
+<strong>: Defines important text (typically rendered in bold).
+<em>: Defines emphasized text (typically rendered in italics).
+<br>: Inserts a line break.
+<blockquote>: Defines a section that is quoted from another source.
+<pre>: Defines preformatted text, preserving whitespace and line breaks.
+<code>: Defines a piece of computer code.
+<ul>: Defines an unordered list.
+<ol>: Defines an ordered list.
+<li>: Defines a list item.
+<dl>: Defines a description list.
+<dt>: Defines a term in a description list.
+<dd>: Defines a description of a term in a description list.
+Form Elements
+<form>: Defines an HTML form for user input.
+<input>: Defines an input control.
+<textarea>: Defines a multiline input control (text area).
+<button>: Defines a clickable button.
+<select>: Defines a drop-down list.
+<option>: Defines an option in a drop-down list.
+<label>: Defines a label for an input element.
+Media Elements
+<img>: Embeds an image.
+<video>: Embeds a video.
+<audio>: Embeds audio content.
+<source>: Specifies multiple media resources for <video> or <audio>.
+<iframe>: Embeds another HTML page within the current page.
+Link Elements
+<a>: Defines a hyperlink.
+<link>: Defines the relationship between the current document and an external resource (most often used for linking to stylesheets).
+Table Elements
+<table>: Defines a table.
+<tr>: Defines a row in a table.
+<td>: Defines a cell in a table.
+<th>: Defines a header cell in a table.
+<thead>: Groups the header content in a table.
+<tbody>: Groups the body content in a table.
+<tfoot>: Groups the footer content in a table.
+Semantic Elements
+<div>: Defines a division or section (commonly used as a container for other elements).
+<span>: Defines a section in a document (commonly used for styling inline content).
+<figure>: Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<figcaption>: Defines a caption for a <figure> element.
+These elements help structure and present content on web pages, providing the foundation for web development.

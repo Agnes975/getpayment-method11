@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* table{
+            outline: 2px double red;
+            background-color: black;
+        }
+        th{
+            background-color: aquamarine;
+        }
+        td,th{
+            border-radius: 10px;
+        }
+        td{
+            background-color: palegoldenrod;
+        } */
+        .stu tr{
+            background-color: lightpink;
+        }
+        table{
+            background-color: rgb(219, 46, 72);
+        }
+        .search{
+            background-color: lightblue;
+            width: 50%;
+            text-align: left;
+            padding: 5px 5px;
+            border-radius: 15px;
+        }
+        .searchbar{
+            background-color: lightblue;
+            outline: none;
+            border: none;
+            width: 90%;
+        }
+        .search:hover .searchbar{
+            background-color: lightcoral;
+        }
+        .search:hover{
+            background-color: lightcoral;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <center>
+    <table border="1">
+        <!--<tr>
+            <td>Name</td> <td>Age</td>
+        </tr>
+        <td>Agnes</td><td>22</td>
+    -->
+        
+            <h1>IPL Team</h1>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>  
+                <th>Team</th>
+            </tr>
+            <tr>
+                <td>Dhoni</td> <td>58</td>  <td>CSK</td>
+            </tr>
+            <tr>
+                <td>Virat Kohli</td> <td>48</td>  <td>RCB</td>
+            </tr>
+            <tr>
+                <td>KL Rahul</td> <td>38</td>  <td>LSG</td>
+            </tr>
+        </center>
+    </table>
+    <!--HTML Form
+    <form>...</form>
+    -->
+    <form action="\about" method="post">
+       Name: &nbsp;&nbsp;<input type="text"><br>
+       Age:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number"><br>
+       <input type="submit">
+       <input type="reset">
+    </form>
+    <!--HTML Form + Table con-->
+    
+    <!--
+        <form>
+            <table>
+                <tr>
+        <td>Name : </td><td><input type="text" ></td>
+    </tr>
+    <tr>
+        <td>Age : </td><td><input type="number" ></td>
+    </tr>
+    <tr>
+        <td><input type="submit"></td>  <td><input type="reset"></td>
+    </tr>
+</table>
+</form>
+
+-->
+<form>
+    Name: <input type="text"><br>
+    Age:  <input type="number"><br>
+    <input type="submit">
+    <input type="reset">
+</form>
+
+<!--Task-->
+<center>
+    <h1>Student Registration Form</h1>
+    <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="searchbar" placeholder="search items" type="search">
+    </div>
+    <form>
+        <table class="stu">
+            <tr>
+                <td><label for="name">Name :</label></td>
+                <td> <input id="name" type="text" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td>Age  : </td><td><input type="number" placeholder="Enter your Age"></td>
+            </tr>
+            <tr>
+                <td>Address : </td><td><input type="text" placeholder="Enter your address"></td>
+            </tr>
+            <tr>
+                <td>Depertment :  </td>
+                
+                <td>
+                    <select>
+                        <option>C</option>
+                        <option>C++</option>
+                        <option>Python</option>
+                        <option>Java</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td><td><input type="reset"></td>
+            </tr>
+        </table>
+        
+    </form>
+ </center>
+    </body>
+    </html>
